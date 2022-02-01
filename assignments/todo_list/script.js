@@ -12,6 +12,7 @@ button.addEventListener('click', function() {
         newTodo.addEventListener('click',function(){
             newTodo.remove()
         })
+        
     }
     input.value=""
 })
