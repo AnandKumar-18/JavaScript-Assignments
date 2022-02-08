@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos API</title>
+    <style>
+        body {
+            font-size: 20px;
+        }
+
+        .completed,
+        .notcompleted {
+            width: 43%;
+            display: inline-block;
+            vertical-align: top;
+            margin: 100px 45px;
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 2px;
+        }
+
+        .completed {
+            background-color: aquamarine;
+            color: brown;
+        }
+
+        .notcompleted {
+            background-color: rgb(11, 58, 146);
+            color: aqua
+        }
+
+        #clickIt{
+            background-color: black;
+            padding: 12px 17px;
+            color:chartreuse;
+            position:absolute;
+            left: 707px;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <button id="clickIt">
+            <strong>Click Me</strong>
+        </button>
+    </div>
+    <div class="completed"></div>
+    <div class="notcompleted"></div>
+    <script src="todo_api.js"></script>
+</body>
+</html>
